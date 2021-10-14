@@ -1,0 +1,201 @@
+            * {
+                font-family: 'Montserrat', sans-serif
+            }
+            
+            body {
+                overflow-x: hidden;
+                color: #fff;
+            }
+            
+            #title {
+                background-color: #0046bf;
+                color: #fff;
+            }
+            
+            h1 {
+                font-family: 'Gemunu Libre', sans-serif !important;
+                font-size: 3rem !important;
+                line-height: 1.5 !important;
+                font-weight: bolder !important;
+            }
+            
+            h3 {
+                color: #0046bf !important;
+                font-weight: bolder !important;
+            }
+            
+            .container-fluid {
+                padding: 3% 15% 7%!important;
+            }
+            
+            .navbar-brand {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 2.5rem !important;
+                font-weight: bolder;
+            }
+            
+            .navbar {
+                padding: 0 0 4.5rem !important;
+            }
+            
+            .navbar-item {
+                padding: 0 18px !important;
+            }
+            
+            .nav-link {
+                font-size: 1.2rem !important;
+                font-weight: lighter !important;
+            }
+            
+            .download-btn {
+                margin: 5% 3% 5% 0%;
+                padding: 3%;
+                background-color: rgb(251, 195, 51);
+                color: #fff;
+                font-weight: bolder !important;
+                font-size: 2rem !important;
+                transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+                -webkit-transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+                -moz-transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+                -ms-transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+                -o-transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+            
+            .download-btn:hover {
+                background-color: rgb(251, 195, 11);
+                transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+            
+            .logo-img {
+                width: 80%;
+                margin-top: -1rem !important;
+                transform: rotate(-15deg);
+                -webkit-transform: rotate(-15deg);
+                -moz-transform: rotate(-15deg);
+                -ms-transform: rotate(-15deg);
+                -o-transform: rotate(-15deg);
+            }
+            
+            #features {
+                position: relative;
+                padding: 5% 0%;
+                text-align: center;
+                background-color: rgb(251, 195, 11);
+            }
+            
+            .feature-box {
+                padding: 5%;
+                text-align: center;
+            }
+            
+            p {
+                font-weight: bold !important;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 1.2rem;
+                color: #0000ff !important;
+            }
+            
+            .small-me {
+                font-size: 1.5rem;
+            }
+            
+            .icon {
+                color: #0046bf;
+                margin-bottom: 1rem;
+            }
+            
+            .icon:hover {
+                color: #0000ff;
+            }
+            
+            #testimonials {
+                padding: 7% 15%;
+                text-align: center;
+                background-color: #0046bf;
+                color: #fff;
+            }
+            
+            .testimonials-img {
+                width: 5REM;
+                height: 10%;
+                margin: 20px;
+                border-radius: 70%;
+                -webkit-border-radius: 70%;
+                -moz-border-radius: 70%;
+                -ms-border-radius: 70%;
+                -o-border-radius: 70%;
+            }
+            
+            #press {
+                background-color: #0046bf;
+                text-align: center;
+                padding-bottom: 3%;
+            }
+            
+            .press-logo {
+                width: 15%;
+                margin: 20px 20px 50px;
+            }
+            
+            .carousel-item {
+                padding: 7% 15%;
+            }
+            
+            #pricing {
+                padding: 100px;
+                text-align: center;
+                background-color: rgb(251, 195, 11);
+            }
+            
+            .pricing-column {
+                padding: 3% 2%;
+            }
+            
+            @media only screen and (max-width:1028px) {
+                #title {
+                    text-align: center;
+                }
+                .logo-img {
+                    width: 50%;
+                }
+                body {
+                    font-size: 85% !important;
+                }
+            }
+            
+            .hi {
+                margin: 20px 10px;
+                color: #0046bf;
+            }
+            
+            #footer {
+                padding: 7% 15%;
+                text-align: center;
+                background-color: #000;
+            }
+            
+            .features-logo {
+                width: 70%;
+                margin-left: -10%;
+            }
+            
+            .object {
+                position: absolute;
+                width: 5rem;
+                height: 5rem;
+                top: 5%;
+                border-radius: 50%;
+                background-color: blue;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            
+            .features-icon {
+                width: 60%;
+            }
+            
+            .footer-text {
+                color: #0000ff!important;
+            }
